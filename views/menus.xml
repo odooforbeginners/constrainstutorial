@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <act_window id="marks_action_menu" name="Marks" res_model="marks" view_type="form" view_mode="tree,form"/>
+
+    <menuitem id="school_manager_main_menu" name="School Manager"/>
+    <menuitem id="marks_main_menu" name="Marks" parent="school_manager_main_menu" sequence="3" action="marks_action_menu"/>
+
+</odoo>
